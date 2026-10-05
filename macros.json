@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "title": "Order Status Updated",
+    "situation": "Use when the order status has been updated and you want to close the interaction politely.",
+    "macro": "Your order status has been updated successfully.\nHave a safe trip and a wonderful day ahead!",
+    "category": "Order Status",
+    "keywords": [
+      "order status",
+      "status updated",
+      "close interaction",
+      "updated"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Client at Location – Proceed with Delivery",
+    "situation": "Use when the client is at the delivery location and the courier needs to contact them and complete the delivery.",
+    "macro": "The client is at their location. Please call them and proceed with the delivery of the order.",
+    "category": "Delivery",
+    "keywords": [
+      "client at location",
+      "delivery",
+      "call client",
+      "proceed",
+      "location"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Delivery Confirmation",
+    "situation": "Use when the order is marked as delivered and you need the courier to confirm that the order was handed over to the client.",
+    "macro": "The order is showing as delivered. Could you please confirm if you’ve handed the order over to the client?",
+    "category": "Delivery",
+    "keywords": [
+      "delivered",
+      "delivery confirmation",
+      "handed over",
+      "handover"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Client Unreachable – Go to Location",
+    "situation": "Use when the client cannot be reached by phone and the courier needs to go to the client’s location and try to contact them directly.",
+    "macro": "The client could not be reached. Please go to the client’s location and try to contact them directly. If the client is still unavailable, please wait for a few minutes in case they change their mind. Thank you for your patience and cooperation.",
+    "category": "Client Unreachable",
+    "keywords": [
+      "client unreachable",
+      "cannot reach",
+      "go to location",
+      "call",
+      "wait",
+      "unavailable"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Client Unreachable – Wait 10 Minutes",
+    "situation": "Use when the client cannot be reached and the courier needs to wait before taking further action.",
+    "macro": "The client could not be reached. Please wait for 10 minutes in case they respond or change their mind. Thank you for your patience.",
+    "category": "Client Unreachable",
+    "keywords": [
+      "client unreachable",
+      "wait 10 minutes",
+      "wait",
+      "respond",
+      "change mind"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Issue Details in Chat",
+    "situation": "Use when a courier asks Support to call instead of explaining the issue in chat.",
+    "macro": "Please describe the issue here in the chat so we can assist you accordingly. There’s no need to call—just share the details with us here, and we’ll be happy to help.",
+    "category": "General Support",
+    "keywords": [
+      "issue",
+      "chat",
+      "call",
+      "describe issue",
+      "support"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Payment Confirmation Before Handover",
+    "situation": "Use when the courier has not confirmed payment before handing over the order, especially when the client is having payment difficulties.",
+    "macro": "Please make sure to confirm the payment before handing over the order to the client. In this case, kindly ask the client to complete the payment for the order now.\n\nIf the client is experiencing any issues with the payment, please contact Support for assistance before handing over the order.",
+    "category": "Payment",
+    "keywords": [
+      "payment",
+      "confirm payment",
+      "handover",
+      "handing over",
+      "payment issue"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Client Refused to Pay",
+    "situation": "Use when the courier has already handed the order to the client but the client refuses to pay.",
+    "macro": "Please make sure to confirm the payment before handing over the order to the client. In this case, kindly ask the client to complete the payment for the order now. If the client is experiencing any issues with the payment, please contact Support for further assistance before handing over the order.",
+    "category": "Payment",
+    "keywords": [
+      "client refused to pay",
+      "refused payment",
+      "payment",
+      "order handed over",
+      "unpaid",
+      "handover"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Cancelled Order – Return to Hub",
+    "situation": "Use when an order has been cancelled and should no longer be delivered.",
+    "macro": "The order has been cancelled, so there is no need to deliver it. Please return the order to the hub. Thank you for your cooperation.",
+    "category": "Cancelled Order",
+    "keywords": [
+      "cancelled",
+      "cancelled order",
+      "return to hub",
+      "do not deliver",
+      "hub"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "First-Order Promotion Not Eligible",
+    "situation": "Use when a client registers with a new phone number but the same mobile device has previously been used to place an order.",
+    "macro": "The first-order promotion is not applicable because an order has already been placed from this mobile device before. Even if a new number is used to register, the device has previously been used to place an order, so the promotion cannot be applied.",
+    "category": "Promotion",
+    "keywords": [
+      "first order",
+      "promotion",
+      "not eligible",
+      "new phone number",
+      "mobile device",
+      "previous order"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Final Decision – Cannot Change",
+    "situation": "Use when a customer asks Support to review or change a decision that has already been finalized.",
+    "macro": "I understand this isn’t an easy situation, and I’m sorry for any inconvenience caused. However, I’m unable to change the decision, and it is final.\n\nIf you have any other questions about our service that are not related to reviewing this decision, I’ll be happy to help.",
+    "category": "Final Decision",
+    "keywords": [
+      "final decision",
+      "cannot change",
+      "decision",
+      "review",
+      "final",
+      "inconvenience"
+    ]
+  }
+]
